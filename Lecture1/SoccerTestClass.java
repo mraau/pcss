@@ -1,3 +1,4 @@
+package pcss.lecture01;
 
 public class SoccerTestClass {
 
@@ -9,7 +10,7 @@ public class SoccerTestClass {
 		// Team 1 (Germany)
 		Trainer t1 = new Trainer("Juergen Klinsmann", 34, 9);
 		Keeper k1 = new Keeper("J. Lehmann", 36, 8, 1, 9, 7);
-		Player[] p1 = new Player[10];
+		Player[] p1 = new Player[11];
 		p1[0] = new Player("P. Lahm", 23, 9, 5, 9);
 		p1[1] = new Player("C. Metzelder", 25, 8, 2, 7);
 		p1[2] = new Player("P. Mertesacker", 22, 9, 2, 8);
@@ -20,13 +21,15 @@ public class SoccerTestClass {
 		p1[7] = new Player("L. Podolski", 21, 7, 8, 9);
 		p1[8] = new Player("M. Klose", 28, 10, 9, 7);
 		p1[9] = new Player("O. Neuville", 33, 8, 8, 7);
+		
+		p1[10] = new Player("E. Ustrup", 22, 3, 1, 0);
 		// *************************************************************
 
 		// *************************************************************
 		// Team 2 (Brazil)
 		Trainer t2 = new Trainer("Carlos Alberto Parreira", 50, 3);
 		Keeper k2 = new Keeper("Dida", 25, 9, 1, 6, 8);
-		Player[] p2 = new Player[10];
+		Player[] p2 = new Player[11];
 		p2[0] = new Player("Cafu", 33, 8, 4, 6);
 		p2[1] = new Player("R. Carlos", 32, 9, 9, 2);
 		p2[2] = new Player("Lucio", 29, 10, 9, 9);
@@ -37,6 +40,8 @@ public class SoccerTestClass {
 		p2[7] = new Player("Adriano", 23, 8, 8, 4);
 		p2[8] = new Player("Robinho", 19, 9, 8, 9);
 		p2[9] = new Player("Ronaldo", 28, 4, 10, 2);
+		
+		p2[10] = new Player("M. Hagemann", 19, 1, 5, 8);
 
 		// *************************************************************
 		Team tm1 = new Team("Germany 2006",t1,k1,p1);
