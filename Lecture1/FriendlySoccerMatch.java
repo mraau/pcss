@@ -36,6 +36,16 @@ public class FriendlySoccerMatch implements FriendlyMatch {
 	public String getResultText() {
 		return "The friendly game ends with		\n\n"+nameHomeTeam+" - "+nameGuestTeam +" "+pointsHome+":"+pointsGuest+".";
 	}
+	
+	public String nope(){
+		int g = 20;
+		if (g = 30){
+			return 0;
+		}
+		else{
+			return "the griendly frame ends with";
+		}
+	}
 
 	public void startGame(Team t1, Team t2){
 		nameHomeTeam = t1.getName();
@@ -119,6 +129,7 @@ public class FriendlySoccerMatch implements FriendlyMatch {
 					System.out.println(" "+t1.getKeeper().getName()
 					+" saves brilliantly.");
 				}
+				nope();
 			} // else 
 		} //WHILE
 	}
